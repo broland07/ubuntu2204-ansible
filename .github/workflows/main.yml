@@ -2,7 +2,7 @@ name: Ansible image build
 
 on:
   schedule:
-    - cron:  '0 23 */2 * *'
+    - cron:  '0 0 * * MON'
 
 jobs:
 
